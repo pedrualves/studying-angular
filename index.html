@@ -1,0 +1,31 @@
+<html ng-app="meuApp">
+<head>
+	<title>Angularizando</title>
+	<body>
+		<p>
+			Acima da View
+		</p>
+		
+		<hr>		
+		
+		<p>
+			<div ng-view></div>
+		</p>
+		
+		<hr>
+		
+		<p>
+			Abaixo da view:<br/>
+			<a href="#/abc">ABC</a>
+			<br/>
+			<a href="#/def">DEF</a>
+		</p>
+
+		<script src="assets/angular.js"></script>
+		<script src="assets/angular-route.js"></script>
+		<script src="app.js"></script>
+		<script src="controller/indexController.js"></script>
+		
+	</body>
+</head>
+</html>
